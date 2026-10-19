@@ -1,0 +1,314 @@
+@media only screen and (max-width: 767px) {
+    /*
+    .auto-container {
+        padding: 0 10px;
+    }
+    */
+    body {
+        width: 100%;
+        -webkit-overflow-scrolling: unset;
+    }
+
+    #scroll-down{
+        display: none;
+    }
+
+/***
+
+====================================================================
+    Modal POP-UP
+====================================================================
+
+***/
+
+.modal-body{
+    text-align: center;
+    margin: 10%;
+}
+
+.modal-body h2{
+    font-size: 23px;
+}
+
+#modal-footer-text{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.modal-footer{
+    padding: 10px;
+}
+
+.modal-dialog{
+    margin: 25px;
+}
+
+
+/***
+
+====================================================================
+	Header Section
+====================================================================
+
+***/
+header {
+    position: fixed;
+}
+
+li>a#signin{
+    padding: 5px !important;
+}
+
+.navbar-nav{
+    margin-top: 6em !important;
+}
+
+#headr-navi li:not(.dropdown),
+#headr-navi li.dropdown > ul > li {
+    display: flex !important;
+    justify-content: center;
+}
+
+#headr-navi li>a,
+#headr-navi li>button
+{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.navbar-nav .open .dropdown-menu{
+    text-align: center;
+}
+
+#headr-navi > ul > li.dropdown > ul > li:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.headr {
+    display:block;
+    box-shadow: rgb(157, 165, 171) 0px 0px 0.25rem;
+}
+
+#signin {
+    border: 2px solid #275968;
+
+    border-radius: 10px;
+}
+#signin:hover {
+    color: white;
+    background-color: #275968;
+}
+.bar-container {
+    z-index: 1;
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    right: 20px;
+    top: 25px;
+}
+.headr-logo {
+    z-index: 1;
+    width: 45%;
+    padding: 10px 20px;
+
+}
+#headr-navi {
+    display: block;
+    margin: 0 auto;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: white;
+    right: -105vw;
+    text-align: center;
+}
+
+/***
+
+====================================================================
+    HEADER TOP
+====================================================================
+
+***/
+    .journey{
+        font-size: 30px;
+    }
+
+/***
+
+====================================================================
+    Explore - Section
+====================================================================
+
+***/
+
+    .header-lower .btn-outer{
+        position: relative;
+        padding: 3% 25%;
+        z-index: 12;
+    }
+
+    .header-lower span{
+        font-size: 20px;
+    }
+
+    .header-lower .btn-outer .btn-login {
+        line-height: 18px;
+    }
+
+/***
+
+====================================================================
+    Footer - Section
+====================================================================
+
+***/
+
+.big, .small{
+    width: 100%;
+}
+    
+.full-footer {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.takecontrol{
+    margin: 0 40px;
+    padding: 0 10px 10px 10px !important;
+}
+
+.spaced {
+    margin-bottom: 10px;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.fifth-footer {
+    width: 100%;
+    text-align: center;
+}
+.footer-bottom {
+    text-align: center;
+}
+.leftend {
+    border-bottom: 1px solid white;
+    border-right: none;
+}
+.rightend {
+    border-top: 1px solid white;
+    border-left: none;
+}
+.footer-main-text {
+    font-size: 17px !important;
+    margin: 5px 7px;
+    font-size: 20px;
+}
+.footer-link {
+    font-size: 13px;
+    line-height: 2;
+}
+.text-footer {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.full-footer > .text-footer {
+    margin-top: 10px;
+}
+.footer-link>a {
+    border-bottom: none;
+}
+
+.footer-link>a:hover {
+    border-bottom: none;
+    color: white;
+}
+
+.testimonial-section .class-title .text {
+    font-size: 20px;
+}
+.testimonial-section {
+    padding: 30px 0;
+}
+.testimonial-class .testimonial .inner-box {
+    position: relative;
+    padding: 0px;
+    margin: 0 20px;
+    border-radius: 9px;
+    /* box-shadow: 15px 15px 9px -16px gray; */
+}
+.testimonial-class .testimonial .inner-box .text p {
+    padding-left: 0;
+    padding-right: 0;
+}
+.testimonial-class .testimonial {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.header-top {
+    padding-bottom: 0;
+}
+.catalog-left {
+    margin: 0;
+}
+.catalog-section {
+    padding: 0;
+}
+.comment-info {
+    margin: 0 10px;
+}
+.supertext {
+    text-align: center;
+}
+/***
+====================================================================
+guidebook part
+====================================================================
+***/
+
+.catalog{
+    padding: 0;
+}
+
+.catalog img{
+    width: 100%;
+}
+
+.backgroundimg {
+    display: none;
+}
+.sometext {
+    margin: 10px 20px; 
+}
+.topbotpart {
+    margin: 0 !important;
+    width: 100%;
+}
+.midpart {
+    margin: 0 !important;
+    width: 100%;
+}
+.midarrow {
+    display: none;
+}
+.topbothalfleft {
+    width: 100%;
+    text-align: center;
+}
+.topbothalfright {
+    width: 100%;
+    text-align: center;
+}
+.title {
+    font-size: 32px !important;
+}
+.discovertext {
+    padding: 0;
+}
+.descriptions {
+    margin: 10px 20px 30px 20px;
+
+}
+}

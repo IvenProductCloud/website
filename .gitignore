@@ -1,0 +1,3 @@
+# Contains the Mailchimp API key; PHP can't run on GitHub Pages anyway
+website/mailchimp.php
+.DS_Store

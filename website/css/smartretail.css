@@ -1,0 +1,166 @@
+/***
+
+====================================================================
+    Header - Section
+====================================================================
+
+***/
+#sr-header{
+    padding: 60px 0;
+}
+
+.sr-headerTitle{
+    position: relative;
+    
+}
+
+.sr-headerTitle h2{
+    font-weight: 400;
+    text-align: center;
+}
+
+.sr-headerText{
+    font-size: 20px;
+    margin: 0 10%;
+    padding-bottom: 50px;
+}
+
+#asset-img{
+    padding: 40px 0;
+}
+
+.left-side{
+    margin: 10% 0;
+}
+
+.right-side{
+    margin: -20%;
+}
+
+.sr-left-list{
+    font-weight: 400;
+    margin: 0 2em;
+    margin-left: 6em;
+}
+
+.sr-list{
+    text-align: left;
+}
+
+.sr-list li{
+    line-height: 2;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sr-list li::before{
+    content: '\f00c'; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+}
+
+
+/***
+
+====================================================================
+    Puzzle - Section
+====================================================================
+
+***/
+
+#sr-puzzle{
+    position: relative;
+    padding: 60px 0;
+    color: black;
+    background-color: #D3E8EE;
+}
+
+#sr-puzzleTitle h2{
+    font-size: 40px;
+    margin-left: 2%;
+    line-height: 2;
+    font-weight: 500;
+
+}
+
+#sr-puzzle .sr-puzzleImg{
+    text-align: center;
+}
+
+#sr-puzzle .sr-puzzleImg img{
+    width: 60%;
+}
+
+.sr-puzzleList li::before{
+    content: '\f12e'; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+}
+
+.sr-puzzleList li{
+    line-height: 2;
+    font-size: 20px;
+    margin: 0 20%;
+    font-weight: 400;
+}
+/***
+
+====================================================================
+    CARD - Section
+====================================================================
+
+***/
+
+#sr-cards{
+    padding: 60px 0;
+}
+
+.card-bg img{
+    width: auto; 
+    height: 300px;
+}
+
+/***
+
+====================================================================
+    Responsive
+====================================================================
+
+***/
+
+@media only screen and (max-width: 767px){
+
+    .sr-list{
+        text-align: left;
+    }
+
+    .sr-left-list{
+        margin: 0 auto;
+        margin-left: 25%;
+    }
+
+/***
+
+====================================================================
+        PUZZLE - Section        
+====================================================================
+
+***/
+
+    .sr-puzzleList{
+        text-align: center;
+    }
+
+    /* .puzzleList{
+        margin-left: 25%;
+    } */
+
+    #sr-puzzleTitle h2{
+        text-align: center;
+    }
+
+}

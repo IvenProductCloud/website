@@ -1,0 +1,250 @@
+@media only screen and (max-width: 767px){
+/***
+
+====================================================================
+	Header Section
+====================================================================
+
+***/
+header {
+    position: fixed;
+}
+
+li>a#signin{
+    padding: 5px !important;
+}
+
+.navbar-nav{
+    margin-top: 6em !important;
+    text-align: center;
+}
+
+#headr-navi li:not(.dropdown),
+#headr-navi li.dropdown > ul > li {
+    display: flex !important;
+    justify-content: center;
+}
+
+#headr-navi li>a,
+#headr-navi li>button
+{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.navbar-nav .open .dropdown-menu{
+    text-align: center;
+}
+
+#headr-navi > ul > li.dropdown > ul > li:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.headr {
+    display:block;
+    box-shadow: rgb(157, 165, 171) 0px 0px 0.25rem;
+}
+
+#signin {
+    border: 2px solid #275968;
+
+    border-radius: 10px;
+}
+#signin:hover {
+    color: white;
+    background-color: #275968;
+}
+.bar-container {
+    z-index: 1;
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    right: 20px;
+    top: 25px;
+}
+.headr-logo {
+    z-index: 1;
+    width: 45%;
+    padding: 10px 20px;
+
+}
+#headr-navi {
+    display: block;
+    margin: 0 auto;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: white;
+    right: -105vw;
+    text-align: center;
+}
+/***
+
+====================================================================
+	SECTION - TESTIMONIAL
+====================================================================
+
+***/
+
+#testimonial .testimonial{
+    margin: 0;
+}
+
+.testimonial-class .testimonial .inner-box{
+    margin: 0 50px;
+}
+
+
+
+
+/***
+
+====================================================================
+	IVEN - MAP
+====================================================================
+
+***/
+
+#iven-map {
+    padding-top: 200px;
+}
+
+#iven-map img{
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+#iven-map-row {
+    margin: 0 10%;
+}
+
+.iven-description{
+    margin: 0;
+}
+
+/***
+
+====================================================================
+	SUCCESS-STORY
+====================================================================
+
+***/
+
+#success-h1{
+    padding: 0;
+    text-align: center;
+}
+
+#partner-logo-slider img{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 0 70px;
+    transition: all 0.3s ease;
+}
+
+#inner-box{
+    margin: 10px;
+    box-shadow: 7px 13px 16px -16px grey;
+}
+
+.inner-box-about {
+    margin-bottom: 10px;
+    height: auto;
+}
+/***
+
+====================================================================
+	EXPLORE SECTION
+====================================================================
+
+***/
+
+.explore-section .btn-outer {
+    position: relative;
+    padding: 3% 0;
+    z-index: 12;
+}
+.explore-section .btn-outer .btn-login {
+    margin: 0 100px;
+    line-height: 20px;
+}
+
+/***
+
+====================================================================
+    CONTACT - SECTION
+====================================================================
+
+***/
+
+#contact-left{
+    margin-bottom: 50px;
+}
+
+/***
+
+====================================================================
+    FOOTER - SECTION
+====================================================================
+
+***/
+.big,
+.small {
+    width: 100%;
+}
+.full-footer {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.takecontrol {
+    margin: 0 40px;
+    padding: 0 10px 10px 10px !important;
+}
+.spaced {
+    margin-bottom: 10px;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.fifth-footer {
+    width: 100%;
+    text-align: center;
+}
+.footer-bottom {
+    text-align: center;
+}
+.leftend {
+    border-bottom: 1px solid white;
+    border-right: none;
+}
+.rightend {
+    border-top: 1px solid white;
+    border-left: none;
+}
+.footer-main-text {
+    font-size: 17px !important;
+    margin: 5px 7px;
+    font-size: 20px;
+}
+.footer-link {
+    font-size: 13px;
+    line-height: 2;
+}
+.text-footer {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.full-footer > .text-footer {
+    margin-top: 10px;
+}
+
+.footer-link>a {
+    border-bottom: none;
+}
+.footer-link>a:hover {
+    border-bottom: none;
+    color: white;
+}
+}

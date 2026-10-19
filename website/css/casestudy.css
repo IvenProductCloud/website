@@ -1,0 +1,57 @@
+button.btn-link:hover,
+button.btn-link:active,
+button.btn-link:focus{
+    color: #275968;
+    text-decoration: none;
+}
+
+button.btn-link{
+    color: #275968;
+    text-decoration: none;
+    cursor: default !important;
+}
+
+.panel{
+    margin-bottom: 0 !important;
+}
+
+.panel-heading{
+    background-color: white !important;
+}
+
+.panel-heading button{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#casestudy-description{
+    padding: 15px 0 50px;
+}
+
+#panel-btn{
+    width: 100%;
+    margin: 50px 0;
+    transition: all 150ms ease;
+    color: #275968;
+    border: 1px solid #275968;
+    background-color: transparent;
+    cursor: pointer !important;
+}
+
+#panel-btn:hover{
+    background-color: #275968;
+    color: white;
+}
+
+#img-section{
+    position: relative;
+    padding: 100px 0 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#img-section h1{
+    text-transform:uppercase; 
+    margin-top: 5%;
+    color:#275968;
+}

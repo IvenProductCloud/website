@@ -1,0 +1,424 @@
+
+@media only screen and (max-width: 767px) {
+    /* 
+        .auto-container {
+            padding: 0 10px;
+        }
+    */
+        body {
+            width: 100%;
+            -webkit-overflow-scrolling: unset;
+        }
+
+        /***
+
+    ====================================================================
+        Modal POP-UP
+    ====================================================================
+
+    ***/
+
+        .modal-body{
+            text-align: center;
+            margin: 0 6%;
+        }
+
+        .modal-body h2{
+            font-size: 23px;
+        }
+
+        #modal-footer-text{
+            font-size: 18px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .modal-footer{
+            padding: 10px;
+        }
+
+        .modal-dialog{
+            margin: 25px;
+        }
+
+    /***
+
+    ====================================================================
+        Header - Section
+    ====================================================================
+
+    ***/
+
+        /*
+    Header start
+    */
+        header {
+            position: fixed;
+        }
+
+        li>a#signin{
+            padding: 5px !important;
+        }
+
+        .navbar-nav{
+            margin-top: 6em !important;
+        }
+
+        #headr-navi li:not(.dropdown),
+        #headr-navi li.dropdown > ul > li {
+            display: flex !important;
+            justify-content: center;
+        }
+
+        #headr-navi li>a,
+        #headr-navi li>button
+        {
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        .navbar-nav .open .dropdown-menu{
+            text-align: center;
+            display: block;
+            left: 0;
+            width: 200px;
+            z-index: -999;
+            padding: 0;
+            background: #ffffff;
+            border-radius: 10px;
+        }
+
+        #headr-navi > ul > li.dropdown > ul > li:last-child {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        .headr {
+            display:block;
+            box-shadow: rgb(157, 165, 171) 0px 0px 0.25rem;
+        }
+
+        #signin {
+            border: 2px solid #275968;
+
+            border-radius: 10px;
+        }
+        #signin:hover {
+            color: white;
+            background-color: #275968;
+        }
+        .bar-container {
+            z-index: 1;
+            display: block;
+            position: fixed;
+            cursor: pointer;
+            right: 20px;
+            top: 25px;
+        }
+        .headr-logo {
+            z-index: 1;
+            width: 45%;
+            padding: 10px 20px;
+        }
+        #headr-navi {
+            display: block;
+            margin: 0 auto;
+            position: fixed;
+            height: 100vh;
+            width: 100%;
+            background: white;
+            right: -110vw;
+            text-align: center;
+        }
+
+        .header-canvas .row{
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+        }
+
+        .header-screen {
+            padding-top: 100px;
+        }
+
+        .header-screen .header-canvas .absolute-phone {
+            /* min-height: 72vh; */
+            display: none;
+        }
+        .header-screen .header-canvas .absolute-phone img {
+            display: none;
+            padding-bottom: 20%;
+            z-index: 5;
+        }
+        .header-screen .header-canvas .title h1 {
+            font-size: 30px;
+        }
+        .header-screen .header-canvas .icon-text {
+            margin: 0;
+            /* display: none; */
+            font-size: 25px;
+        }
+        .header-screen .header-canvas .icon-slider3 {
+            position: relative;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .icon-slider3 .owl-item .slide {
+            transition: 1.5s;
+        }
+        .icon-slider3 .owl-item.active .slide {
+            transform: none;
+        }
+        .icon-slider3 .owl-item.active ~ .active .slide {
+            transform: none;
+        }
+        .icon-slider3 .owl-item.active ~ .active ~ .active .slide {
+            transform: none;
+        }
+        
+        .header-screen .partner-logo-slider {
+            padding: 0 13%;
+        }
+        .header-screen .partner-logo-slider .auto-container {
+            padding: 10px 0;
+            max-width: 800px;
+        }
+        .header-screen .partner-logo-slider .auto-container .owl-carousel .owl-item img {
+            margin: 10px 0;
+            padding: 0 70px;
+        }
+        .main-header .nav-outer .btn-outer {
+            left: 0px;
+            top: 30px;
+            padding-left: 0px;
+        }
+        /***
+
+    ====================================================================
+        Company - Section
+    ====================================================================
+
+    ***/
+        .company-section {
+            padding-top: 80px;
+        }
+        .company-section .auto-container {
+            padding: 0 20px;
+        }
+        .company-section .service {
+            padding: 0;
+            background-size: contain;
+            background-position-y: 51%;
+        }
+        .company-section .row {
+            padding: 0;
+        }
+        .company-section .sec-title.centered .text {
+            font-size: 15px;
+            padding: 0 30px;
+        }
+        .company-section .sec-title.centered .text strong{
+            font-size: 18px;
+        }
+        .company-section .service .services {
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .company-section .testimonial-section {
+            position: relative;
+            background-size: cover;
+            width: 100%;
+            padding: 40px 0 0 0;
+        }
+        .company-section .testimonial-class {
+            width: 100%;
+            text-align: center;
+            padding: 30px 0;
+        }
+        .company-section .service .inner-box {
+            margin: 0 25px;
+        }
+        .testimonial-class .testimonial {
+            padding: 40px 0;
+        }
+        .testimonial-class .testimonial .lower-info {
+            padding: 10px 0;
+        }
+        .testimonial-class .testimonial .lower-info img {
+            float: none;
+        }
+        .testimonial-class .testimonial .inner-box {
+            margin: 0 55px;
+        }
+        .testimonial-class .testimonial .inner-box .text p {
+            padding: 0;
+            text-align: center;
+
+        }
+        .testimonial-section .class-title .text {
+            text-align: center;
+            padding: 0 5px;
+            font-size: 20px;
+        }
+
+        .owl-nav .owl-prev {
+            left: 0;
+        }
+        
+        .owl-nav .owl-next {
+            right: 0;
+        }
+
+        /***
+
+    ====================================================================
+        Explore - Section
+    ====================================================================
+
+    ***/
+
+    .solutions h3.text{
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 0 10px;
+    }
+
+    .solutions div.text{
+        margin: 0 3em;
+    }
+
+
+    /***
+
+    ====================================================================
+        Explore - Section
+    ====================================================================
+
+    ***/
+        .explore-section .btn-outer {
+            position: relative;
+            padding: 3% 0;
+            z-index: 12;
+        }
+        .explore-section span {
+            font-size: 17px;
+        }
+        .explore-section .btn-outer .btn-login {
+            margin: 0 120px;
+            line-height: 10px;
+        }
+    /***
+
+    ====================================================================
+        Platform - Section
+    ====================================================================
+
+    ***/
+        .platform-section {
+            padding: 30px 0 0 0;
+            background-size: contain;
+        }
+        .platform-section .row {
+            margin: 0;
+        }
+        .platform-section .auto-container {
+            padding: 0;
+        }
+        .platform-box .inner-box {
+            padding: 0;
+            margin: 0 50px;
+        }
+        .platform-box .inner-box .lower-box {
+            padding: 15px 24px;
+        }
+        .platform-box .inner-box .lower-box p {
+            font-size: 20px;
+            margin: 0;
+        }
+        /***
+
+    ====================================================================
+        Footer - Section
+    ====================================================================
+
+    ***/
+
+    .lg, .sm{
+        width: 100%;
+    }
+
+    .full-footer {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .takecontrol{
+        margin: 0 40px;
+        padding: 0 10px 10px 10px !important;
+    }
+
+    .spaced {
+        margin-bottom: 10px;
+    }
+    .social-icons {
+        margin-top: 20px;
+    }
+    .fifth-footer {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .leftend {
+        border-bottom: 1px solid white;
+        border-right: none;
+    }
+    .rightend {
+        border-top: 1px solid white;
+        border-left: none;
+    }
+    .footer-main-text {
+        font-size: 17px !important;
+        margin: 5px 7px;
+        font-size: 20px;
+    }
+    .footer-link {
+        font-size: 13px;
+        line-height: 2;
+    }
+    .text-footer {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        
+    }
+    .full-footer > .text-footer {
+        margin-top: 10px;
+    }
+    .footer-link>a {
+        border-bottom: none;
+    }
+
+    .footer-link>a:hover {
+        border-bottom: none;
+        color: white;
+    }
+
+    .right-side {
+        margin: 0;
+    }
+
+    .right-side > img {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .main-header .main-box .logo-box .logo img {
+        max-width: 70%;
+    }
+    .main-header .header-top .top-links ul li {
+        padding: 12px 10px;
+    }
+    .main-header .header-top .top-links ul li a {
+        font-size: 13px;
+    }
+}

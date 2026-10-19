@@ -1,0 +1,471 @@
+body {
+    font-family: 'Avenir', sans-serif !important;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.9em;
+    font-weight: 400;
+    text-decoration: none;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+
+#icons {
+    height: 60px;
+}
+
+h3 {
+    color: grey;
+    font-weight: 200 !important;
+    padding: 20px 0;
+}
+
+/***
+
+====================================================================
+	Modal-Contact US Section
+====================================================================
+
+***/
+
+#contact-section{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact-title{
+    color: #275968;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contact-us .modal-content{
+    height: 60vh;
+}
+
+#message-box .form-group input{
+    position: relative;
+    display: block;
+    width: 80%;
+    line-height: 22px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    color: black;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #ababab;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+#message-box .form-group input::-webkit-input-placeholder{
+	color: #333;
+	opacity: 0.6;
+}
+#contact-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 40px;
+    font-size: 15px;
+    border: 2px solid #275968;
+    border-radius: 10px;
+	font-weight: bold;
+	background-color: #275968;
+	color: white;
+}
+#contact-btn:hover{
+
+    background-color: white;
+	color: #275968;
+}
+
+#contact-right .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: white;
+    cursor: default;
+    background-color: #275968;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+
+/***
+
+====================================================================
+	NAVBAR Section
+====================================================================
+
+***/
+
+#signin {
+    border: 2px solid white;
+    background-color: transparent;
+	border-radius: 10px;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	transition: all 0.3s ease;
+}
+
+#signin.signin-navbar{
+    border: 2px solid #275968;
+    color: #275968;
+}
+
+#signin:hover {
+    background-color: white !important;
+    border-color: #275968;
+	color: #275968 !important;
+}
+#signin:hover.scroll{
+    background-color: #275968 !important;
+    color: white !important;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+	width: 35px;
+	height: 3px;
+	background-color: white;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-7px, 1px);
+}
+
+.change .bar2 {
+	opacity: 0;
+}
+
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-10px, -6px);
+}
+
+#header-menu {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	height: 75px;
+	width: 100%;
+	background-color: transparent;
+}
+
+#header-menu.afterScroll{
+    background-color: white;
+}
+
+.headr {
+	max-width: 1140px;
+	background-color: transparent;
+	margin: 0 auto;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headr.scroll{
+    background-color: white;
+}
+
+.headr-logo {
+	padding: 5px 20px;
+	width: 20%;
+    display: inline-block;
+}
+
+.headr-logo img{
+	height: 55px;
+	padding: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+#headr-navi {
+	padding: 0 20px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.btn.btn-circle { border-radius: 50px; }
+
+
+.nav {
+	font-size: 16px;
+}
+
+#headr-navi li>a,
+#headr-navi li>button{
+	padding: 5px;
+	font-size: 15px;
+	margin: auto 15px;
+	color: white;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+
+#headr-navi li>a:after,
+#headr-navi li>button:after {
+  display:block;
+  content: '';
+  border-bottom: 2px solid #ffffff;
+  transform: scaleX(0);  
+  transition: transform 150ms ease-in-out;
+}
+
+#headr-navi li>a:hover:after,
+#headr-navi li>button:hover:after {
+	transform: scaleX(1);
+}
+
+.dropdown.open .dropdown-menu{
+	display: block;
+	left: 0;
+	width: auto;
+	z-index: 100;
+	padding: 0;
+	background: #ffffff;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#headr-navi li>a.scroll,
+#headr-navi li>button.scroll{
+    color: #275968 !important;
+}
+
+#headr-navi li>a.scroll:after,
+#headr-navi li>button.scroll:after {
+  display:block;
+  content: '';
+  border-bottom: 2px solid #275968;
+  transform: scaleX(0);  
+  transition: transform 150ms ease-in-out;
+}
+
+#headr-navi li>a.scroll:hover:after,
+#headr-navi li>button.scroll:hover:after {
+	transform: scaleX(1);
+}
+
+.dropdown-menu>li>a{
+    color: #275968 !important;
+}
+
+#headr-navi > ul > li.dropdown > ul > li:last-child {
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.bar-container {
+	display: none;
+	position: fixed;
+	cursor: pointer;
+	right: 20px;
+	top: 20px;
+}
+
+#headr-navi.hiddenn {
+	right: -100vw;
+	transition: 0.3s;
+}
+
+#headr-navi.visiblee {
+	right: 0;
+	transition: 0.3s;
+}
+
+.menuwords {
+	display: inline;
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none !important;
+}
+
+
+/***
+
+====================================================================
+	HEADER Section
+====================================================================
+
+***/
+
+#platform-header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/Asset\ 2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*  HEADER SCREEN  */
+#header-screen {
+    position: relative;
+    width: 100%;
+    height: 75%;
+}
+
+#header-screen .jumbotron{
+    padding-top: 70px;
+    height: 100%;
+    background: transparent !important;
+}
+
+#header-first{
+    position: relative;
+    padding-top: 50px;
+}
+
+#header-second{
+    position: relative;
+    background-color: white;
+    height: 25%;
+}
+
+#header-right img{
+    width: 47em;
+    margin-top: 5em;
+    height: 30em;
+    vertical-align: middle;
+    transform: rotate(-25deg);
+}
+
+#header-left{
+    margin: auto 0;
+}
+
+#header-left h1{
+    margin-left: 10%;
+    margin-top: 30%;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 52px;
+    color: white;
+}
+
+#cross-platform{
+    position: relative;
+    display: inline-block;
+    max-width: 1024px;
+}
+
+/*  HEADER Second */
+
+#header-text {
+    position: relative;
+    margin-top: 10px;
+    padding: 40px 0 20px 0;
+    text-align: center;
+}
+
+#header-text h1 {
+    color: 434343;
+}
+
+#header-text .description {
+    padding-bottom: 30px;
+}
+
+#header-text .description .text {
+    margin: 0 250px;    
+    padding: 30px 0;
+    font-size: 20px;
+    
+}
+
+#system-image {
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#system-image img {
+    position: relative;
+    width: 60%;
+    height: auto;
+    box-shadow: 0 9px 26px -3px gray;
+}
+
+
+/***
+
+====================================================================
+	PLATFORM SOFTWARE Section
+====================================================================
+
+***/
+
+#platform-software {
+    position: relative;
+    background-color: #0B191E;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.panel-heading img{
+    height: 60px;
+}
+
+#platform-software h1{
+    margin: auto 0;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.panel{
+    vertical-align: middle;
+    background-color: #0B191E !important;
+    margin: 0 60px;
+    border: none !important;
+}
+
+.panel-body {
+    font-size: 14px;
+    color: white;
+}
+
+
+/***
+
+====================================================================
+	PLATFORM CONTACT Section
+====================================================================
+
+***/
+
+#platform-contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#platform-button {
+    padding: 10px 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid;
+    border-radius: 50px;
+    color: white;
+    background-color: #275968;
+}
+
+#platform-button:hover {
+    color: #275968;
+    background-color: white;
+}
+
+#platform-button:focus {
+    outline: none;
+}

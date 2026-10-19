@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+
+        <title>Guidebook | Iven</title>
+
+        <!-- Meta tags-->
+        <meta name="description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta name="author" content="Iven"/>
+        <meta name="keywords" content="iven, IoT, Internet of Things, M2M, MQTT, connectivity, platform, realtime, IoT applications, IoT solutions, business automation, digital transformation"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Iven"/>
+        <meta name="application-name" content="Iven"/>
+        <meta name="theme-color" content="#449AB4"/>
+        <!-- End Meta tags-->
+
+        <!--
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta http-equiv="Content-Language" content="en">
+        -->
+
+        <!-- Facebook Open Graph data -->
+        <meta property="og:title" content="Iven | IoT Solutions"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://iven.io"/>
+        <meta property="og:image" content="https://iven.io/images/colored-square-iven-logo.png"/>
+        <meta property="og:description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta property="og:site_name" content="Iven"/>
+        <!-- End Facebook Open Graph data -->
+
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:site" content="@ivenCorp"/>
+        <meta name="twitter:title" content="Iven | IoT Solutions"/>
+        <meta name="twitter:description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta name="twitter:image" content="https://iven.io/images/colored-square-iven-logo.png"/>
+        <meta name="twitter:image:alt" content="Iven Square Logo">
+        <!-- End Twitter Card data -->
+
+        <!-- Google+ Schema.org markup -->
+        <meta itemprop="name" content="Iven | IoT Solutions"/>
+        <meta itemprop="description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta itemprop="image" content="https://iven.io/images/colored-square-iven-logo.png"/>
+        <!-- End Google+ Schema.org markup -->
+
+        <!-- Favicon & Other Links -->
+        <link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32"/>
+        <link rel="apple-touch-icon" href="images/square-iven-logo.png" type="image/png" sizes="200x200"/>
+        <link rel="canonical" href="https://iven.io/guidebook">
+        <!-- End Favicon -->
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/guidebook.css"/>
+        <link rel="stylesheet" href="css/guidebook-responsive.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <!-- End Stylesheet -->
+
+        <!-- Google Tag Manager -->
+        <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TNFFF56');
+        </script>
+        <!-- End Google Tag Manager -->
+
+        <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n; n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0 ; t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '358905531162570'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=358905531162570&ev=PageView&noscript=1" /></noscript>
+        <!-- DO NOT MODIFY -->
+        <!-- End Facebook Pixel Code -->
+
+        <!-- Mailchimp Code -->
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0928deb62d76b7f21eeda8094/0ed8ed240c5df4d16596ce6c2.js");</script>
+        <!-- End Mailchimp Code -->
+    </head>
+    <body>
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNFFF56"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <header id="header-menu">
+            <div class="headr">
+                <div id="hamburger" class="bar-container" onclick="toggler(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div class="headr-logo">
+                    <img onclick="window.location.href='.'" src="images/iven-logo.svg" alt="Iven"/>
+                </div>
+                <div id="headr-navi">
+                    <ul class="nav navbar-nav navbar-right">             
+                        <li><a href="about">ABOUT</a></li>
+                        <li class="dropdown">
+                            <button class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                SOLUTIONS<span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="guidebook">Guidebook</a></li>
+                                <li><a href="platform">Platform</a></li>
+                                <li><a href="smartretail">Smart Retail</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="developers" target="_blank">DEVELOPERS <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="https://blog.iven.io" target="_blank">EXPLORE <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <!--
+                        <li>
+                            <a id="signin" class="btn btn-default btn-outline btn-circle"  href="about#contact-section">SIGN IN</a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section class="header-section">
+            <div class="header-top">
+                <div class="container">
+                    <div class="text">
+                        <h1 class="title">IoT GuideBook</h1>
+                    </div>
+                    <!-- burdan basliyor -->
+                    <div class="mainpart">
+                        <div class="sometext" id="first">You are at the right place to start your digital transformation process!</div>
+                        <div class="sometext">We will prepare tailored IoT GuideBook for your own business model and it will guide you through</div>
+                        <div class="sometext">entire digital transformation process.</div>
+                        <div><img class="backgroundimg" src="images/guidebook-images/laptop.svg" alt="IoT GuideBook Steps"/></div>
+                        <h2 class="journey">Your IoT Journey</h2>
+                        <div class="topbotpart">
+                            <div class="topbothalfleft">
+                                <div class="discover"><img src="/images/header-icons/discover-the-iot-journey.svg" alt="Discover"/></div>
+                                <h4 class="discovertext">Discover</h4>
+                            </div>
+                            <div class="topbothalfright">
+                                <p class="descriptions">We discuss your operational and product related problems or an IoT project you want to execute.</p>
+                                <p class="descriptions"> Then we create <b>IoT Guidebook</b>  including situation and needs analysis specific for your enterprise.</p>
+                            </div>
+                        </div>
+                        <div class="midarrow">
+                            <img class="arrows" src="images/guidebook-images/rightleft.png" alt="arrows"/>
+                        </div>
+                        <div class="midpart">
+                            <div class="topbothalfleft">
+                                <div class="discover"><img src="/images/header-icons/develop-iot-projects.svg" alt="Develop"/></div>
+                                <h4 class="discovertext">Develop</h4>
+                            </div>
+                            <div class="topbothalfright">
+                                <p class="descriptions">We help you to develop your projects according to the IoT Guidebook and make your projects suitable for the <b>Iven IoT Platform.</b></p>
+                                <p class="descriptions">You can manage your devices and their data with the platform.</p>
+                            </div>
+                        </div>
+                        <div class="midarrow">
+                            <img class="arrows" src="images/guidebook-images/leftright.png" alt="arrows"/>
+                        </div>
+                        <div class="topbotpart">
+                            <div class="topbothalfleft">
+                                <div class="discover"><img src="/images/header-icons/evolution-with-iot.svg" alt="Evolve"/></div>
+                                <h4 class="discovertext">Evolve</h4>
+                            </div>
+                            <div class="topbothalfright">
+                                <p class="descriptions">We help you to use <b>Iven Connected Appliances Solutions</b> or create new unique ones with the data generated from your devices!</p>
+                                <p class="descriptions">We help you to integrate external (Geo Location, Weather, Traffic Services) &amp; internal (CRM, ERP, Asset MGMT) applications to you <b>IoT Solution!</b></p>
+                                <p class="descriptions">We provide you the Iven <b>IoT Partner Ecosystem</b> where you can find our IoT Partners from HW Houses to System Integrators!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefit-section" id="cards-beneefit">
+            <div id="benefit-cards" class="benefit-cards">
+                <div class="container">
+                    <div class="row">
+                        <div id="h3-title">
+                            <div class="text-center">
+                                <div class="text">IoT is a hurdling run but </div>
+                                <div class="text"><b>Iven IoT Guidebook</b> will teach you how to jump hurdles.</div>
+                            </div>
+                        </div>
+                        <div class="benefit col-md-4  col-xs-12">
+                            <div class="inner-box">
+                                <div class="icon-box">
+                                    <img src="images/guidebook-images/customize-report.svg" alt="Targeted questions and analysis"/> 
+                                </div>
+                                <div class="text"><b>Customized reports</b> with the right questions instead of offering a standardized digital transformation package
+                                </div>
+                            </div>
+                        </div>
+                        <div class="benefit col-md-4 col-xs-12">
+                            <div class="inner-box">
+                                <div class="icon-box">
+                                    <img src="images/guidebook-images/solution-method.svg" alt="Tailored solutions"/> 
+                                </div>
+                                <div class="text">Included <b>specific solution methods</b> tailored for your own business model. </div>
+                            </div>
+                        </div>
+                        <div class="benefit col-md-4 col-xs-12">
+                            <div class="inner-box">
+                                <div class="icon-box">
+                                    <img src="images/guidebook-images/response-time.svg" alt="Speed up digital transformation"/> 
+                                </div>
+                                <div class="text">Prepared in 2-3 days with <b>a quick response time</b> to speed up the digital transformation process
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="header-lower">
+            <div class="container">
+                <div class="row">
+                    <div class="column col-md-12 col-xs-12">
+                        <div class="text-center">
+                            <h3 id="h3-banner">Test your company's IoT potential!</h3>
+                        </div>
+                    </div>
+                    <div class="column col-md-12 col-xs-12">
+                        <div class="btn-outer">
+                            <a href="https://docs.google.com/forms/d/1YwmsVdCfAm71DPOQ8iaYxHh750ZKYH20G7Sv8k37u-A/edit?ts=5af5a863" class="theme-btn btn-login">Start the Journey</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog-section">
+            <div class="container">
+                <div class="catalog-left col-md-6 col-xs-12">
+                    <div class="catalog">
+                        <img src="images/catalog.svg" alt="Guide to IoT transformation"/>
+                        <div class="catalog-button">
+                            <i id="scroll-right" class="fa fa-angle-right" aria-hidden="true"></i>
+                            <button type="button" class="btn" onclick="location.href = 'https://docs.google.com/forms/d/1YwmsVdCfAm71DPOQ8iaYxHh750ZKYH20G7Sv8k37u-A/edit?ts=5af5a863'">Get The Example Guidebook</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-section col-md-6 col-sm-6 col-xs-12">
+                    <div class="testimonial-class">
+                        <div class="class-title">
+                            <h3 class="text">What our partners say?</h3>
+                        </div>
+                        <div class="test-item-carousel owl-carousel">
+                            <div class="testimonial">
+                                <div class="inner-box">
+                                    <div class="text">
+                                        <p>Iven prepared the IoT Guidebook to lead us in the beginning of the digital transformation process by creating customized methods for our own business model.</p>
+                                    </div>
+                                    <div class="lower-info">
+                                        <div class="icon-box">
+                                            <img src="images/guidebook-images/partner-logo/1.png" alt="Encore Networks"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <div class="inner-box">
+                                    <div class="text">
+                                        <p>Difficult and complicated IoT transformation process has become as clear as light with the IoT GuideBook provided by Iven.</p>
+                                    </div>
+                                    <div class="lower-info">
+                                        <div class="icon-box">
+                                            <img src="images/guidebook-images/partner-logo/2.png" alt="Pleco"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <div class="inner-box">
+                                    <div class="text">
+                                        <p>Iven assists us on adapting IoT smoothly with the right questions and answer analysis.</p>
+                                    </div>
+                                    <div class="lower-info">
+                                        <div class="icon-box">
+                                            <img src="images/guidebook-images/partner-logo/3.png" alt="RTM"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="long-footer">
+            <div class="full-footer">
+                <div class="fifth-footer leftend lg">
+                    <div class="element">
+                        <!-- iven logo -->
+                        <figure class="figure-footer">
+                            <a href=".">
+                                <img src="images/Footer-LOGO.png" alt="Iven"/>
+                            </a>
+                        </figure>
+                        <p class="takecontrol" style="padding:10px;">
+                            Take Control of Your Connected Things
+                        </p>
+                    </div>
+                </div>
+                <div class="fifth-footer text-footer sm">
+                    <div class="footer-main-text"><a href="about">About</a></div>
+                    <div class="footer-link">
+                        <a id="cntct-us" href="about#contact-section">Contact Us</a>
+                        <a id="success-stry" href="about#partner-success-story">Success Stories</a>
+                    </div>
+                </div>
+                <div class="fifth-footer text-footer sm">
+                    <div class="footer-main-text"><a href="platform">Platform</a></div>
+                    <div class="footer-link">
+                        <a href="platform">Features</a>
+                        <a href="developers">API Documentation</a>
+                    </div>
+                </div>
+                <div class="fifth-footer text-footer sm">
+                    <div class="footer-main-text"><a>Resources</a></div>
+                    <div class="footer-link">
+                        <a href="https://blog.iven.io" target="_blank">Blog</a>
+                        <a>Whitepapers</a>
+                    </div>
+                </div>
+                <div class="fifth-footer rightend lg">
+                    <div class="element">
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://www.facebook.com/ivenCorp/" target="_blank">
+                                    <img src="images/social-logo/facebook.svg" alt="Facebook"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/ivenCorp" target="_blank">
+                                    <img src="images/social-logo/twitter.svg" alt="Twitter"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/ivencorp" target="_blank">
+                                    <img src="images/social-logo/linkedin.svg" alt="LinkedIn"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/iven_cloud/" target="_blank">
+                                    <img src="images/social-logo/instagram.svg" alt="Instagram"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="element">
+                        <div class="text stayconnected">Stay Connected!</div>
+                        <div class="subscribe-form">
+                            <form name="subscribe">
+                                <div class="form-group">
+                                    <input type="email" name="email" value="" placeholder="Your email" required/>
+                                    <button type="submit" class="theme-btn">
+                                        <i class="fa fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="column col-md-12 col-sm-12 col-xs-12">
+                        <div class="copyright">
+                            COPYRIGHT ©
+                            <script>document.write(new Date().getFullYear());</script>, 
+                            Iven Infomation and Communication Technologies INC. All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.js"></script>
+        <script src="js/guidebook.js"></script>
+    </body>
+</html>

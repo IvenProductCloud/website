@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+
+        <title>About | Iven</title>
+
+        <!-- Meta tags-->
+        <meta name="description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta name="author" content="Iven"/>
+        <meta name="keywords" content="iven, IoT, Internet of Things, M2M, MQTT, connectivity, platform, realtime, IoT applications, IoT solutions, business automation, digital transformation"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Iven"/>
+        <meta name="application-name" content="Iven"/>
+        <meta name="theme-color" content="#449AB4"/>
+        <!-- End Meta tags-->
+
+        <!--
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta http-equiv="Content-Language" content="en">
+        -->
+
+        <!-- Facebook Open Graph data -->
+        <meta property="og:title" content="Iven | IoT Solutions"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://iven.io"/>
+        <meta property="og:image" content="https://iven.io/images/colored-square-iven-logo.png"/>
+        <meta property="og:description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta property="og:site_name" content="Iven"/>
+        <!-- End Facebook Open Graph data -->
+
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:site" content="@ivenCorp"/>
+        <meta name="twitter:title" content="Iven | IoT Solutions"/>
+        <meta name="twitter:description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta name="twitter:image" content="https://iven.io/images/colored-square-iven-logo.png"/>
+        <meta name="twitter:image:alt" content="Iven Square Logo">
+        <!-- End Twitter Card data -->
+
+        <!-- Google+ Schema.org markup -->
+        <meta itemprop="name" content="Iven | IoT Solutions"/>
+        <meta itemprop="description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta itemprop="image" content="https://iven.io/images/colored-square-iven-logo.png"/>
+        <!-- End Google+ Schema.org markup -->
+
+        <!-- Favicon & Other Links -->
+        <link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32"/>
+        <link rel="apple-touch-icon" href="images/square-iven-logo.png" type="image/png" sizes="200x200"/>
+        <link rel="canonical" href="https://iven.io/about">
+        <!-- End Favicon -->
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/about.css"/>
+        <link rel="stylesheet" href="css/about-responsive.css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <!-- End Stylesheet -->
+        
+        <!-- Google Tag Manager -->
+        <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TNFFF56');
+        </script>
+        <!-- End Google Tag Manager -->
+
+        <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n; n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0 ; t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '358905531162570'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=358905531162570&ev=PageView&noscript=1" /></noscript>
+        <!-- DO NOT MODIFY -->
+        <!-- End Facebook Pixel Code -->
+
+        <!-- Mailchimp Code -->
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0928deb62d76b7f21eeda8094/0ed8ed240c5df4d16596ce6c2.js");</script>
+        <!-- End Mailchimp Code -->
+    </head>
+    <body>
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNFFF56" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <header id="header-menu">
+            <div class="headr">
+                <div id="hamburger" class="bar-container" onclick="toggler(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div class="headr-logo">
+                    <img onclick="window.location.href='.'" src="images/iven-logo.svg" alt="Iven"/>
+                </div>
+                <div id="headr-navi">
+                    <ul class="nav navbar-nav navbar-right">             
+                        <li><a href="about">ABOUT</a></li>
+                        <li class="dropdown">
+                            <button class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                SOLUTIONS<span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="guidebook">Guidebook</a></li>
+                                <li><a href="platform">Platform</a></li>
+                                <li><a href="smartretail">Smart Retail</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="developers" target="_blank">DEVELOPERS <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="https://blog.iven.io" target="_blank">EXPLORE <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <!--
+                        <li>
+                            <a id="signin" class="btn btn-default btn-outline btn-circle"  href="about#contact-section">SIGN IN</a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section id="iven-map">
+            <div class="container">
+                <div id="iven-map-text">
+                    <img src="images/Map-gif.gif" alt="Map"/>
+                </div>
+                <div id="iven-map-description">
+                    <h1 id="title">Iven, The IoT Enabler!</h1>
+                    <div class="row" id="iven-map-row" >
+                        <div class="iven-description col-xs-12" style="font-size: 20px;">
+                            We, Iven, accompany device manufacturers on their entire digital transformation journey by providing end-to-end IoT support.
+                        </div>
+                        <div class="iven-description col-xs-12">
+                            In the advanced IoT sector, 4 years ago with the introduction of IoT applications in Turkey, we became a constantly moving toward <b>player in Turkish IoT market at the global scale.</b>
+                        </div>
+                        <div class="iven-description col-xs-12">
+                            We are dedicated to help our customers through their <b>IoT transformation journey</b> with our expert knowledge and our <b>Iven IoT Platform</b> which is developed according to international standards and trends.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="success-story-section" id="partner-success-story">
+            <div class="container" style="margin: 0 auto; display: block;">
+                <h3 class="success-heading">Success Stories</h3>
+                <div id="company-casestudies">
+                    <div class="container">
+                        <div class="row clearfix">
+                            <div class="case-study col-md-4 col-sm-12 col-xs-12">
+                                <div class="inner-box-about">
+                                    <div class="icon-box-about">
+                                        <img src="images/partners/1.png" alt="Arzum"/>
+                                    </div>
+                                    <div class="text">Iven provides highly reliable and secure IoT platform for Arzum to develop a product-as-a-service business model.</div>
+                                    <a class="icon-box-about-signin" href="casestudy/arzum-casestudy">LEARN MORE</a>
+                                </div>
+                            </div>
+                            <div class="case-study col-md-4 col-sm-12 col-xs-12">
+                                <div class="inner-box-about">
+                                    <div class="icon-box-about">
+                                        <img src="images/partners/10.png" alt="Teknoklima"/>
+                                    </div>
+                                    <div class="text">Scalable and high performance Iven IoT Platform helped Teknoklima to shape its air conditioners according to their needs.</div>
+                                    <a class="icon-box-about-signin" href="casestudy/teknoklima-casestudy">LEARN MORE</a>
+                                </div>
+                            </div>
+                            <div class="case-study col-md-4 col-sm-12 col-xs-12">
+                                <div class="inner-box-about">
+                                    <div class="icon-box-about">
+                                        <img src="images/partners/11.png" alt="Vestel"/>
+                                    </div>
+                                    <div class="text" style="padding-bottom:40px;">Vestel chose Iven IoT Platform for its Puzzle Refrigerator to effectively manage after sales-services.</div>
+                                    <a class="icon-box-about-signin" href="casestudy/vestel-casestudy">LEARN MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="success-heading">Partners</h3>
+                <div id="partner-logo-slider">
+                    <div class="container">
+                        <div class="five-partner-slider owl-carousel owl-theme">
+                            <div class="slide">
+                                <img src="images/partners/1.png" alt="Arzum"/> 
+                            </div>
+                            <div class="slide">
+                                <img src="images/partners/2.png" alt="Türk Telekom"/> 
+                            </div>
+                            <div class="slide">
+                                <img src="images/partners/3.png" alt="Empa Electronics"/> 
+                            </div>
+                            <div class="slide">
+                                <img src="images/partners/4.png" alt="Encore Networks"/> 
+                            </div>
+                            <div class="slide">
+                                <img src="images/partners/5.png" alt="Horizon"/> 
+                            </div>
+                            <div class="slide">
+                                <img src="images/partners/6.png" alt="IBM"/> 
+                            </div>
+                            <div class="slide">
+                                <img src="images/partners/7.png" alt="Inovatink"/> 
+                            </div>
+                            <div class="slide">
+                                <img src="images/partners/8.png" alt="Penta"/> 
+                            </div>
+                            <div class="slide">
+                                <img src="images/partners/9.png" alt="RTM"/> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="iven-explore-section">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="column col-md-12 col-xs-12">
+                        <div class="text-center">
+                            <span>Join Our Team</span>
+                        </div>
+                    </div>
+                    <div class="column col-md-12 col-xs-12">                 
+                        <button id="apply-btn" onclick="location.href='https://angel.co/iven/jobs'">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonial" class="testimonial-section">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="testimonial-class">
+                        <div class="class-title">
+                            <div class="text centered" id="test-title">What our partners say?</div>
+                        </div>
+                        <div class="test-item-carousel owl-carousel owl-theme">
+                            <div class="testimonial">
+                                <div class="inner-box">
+                                    <div class="text">
+                                        <p>IVEN delivered to us a branded IoT Platform that met our custom needs quickly
+                                            and at a reasonable price. The end result was the first iteration of the
+                                            enCloud Device Management System.
+                                        </p>
+                                    </div>
+                                    <div class="lower-info">
+                                        <div class="icon-box">
+                                            <img src="images/testimonial/testimonial-1.jpg" alt="Brad Pool"/>
+                                            <div class="text-lower">
+                                                <h3>Brad Pool</h3>
+                                                <p>Director of Market Development at
+                                                    <b>Encore Networks</b>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <div class="inner-box">
+                                    <div class="text">
+                                        <p>IVEN Product Cloud offers you a wide variety of report types, allowing you to
+                                            tailor reports according to your needs.
+                                        </p>
+                                    </div>
+                                    <div class="lower-info">
+                                        <div class="icon-box">
+                                            <img src="images/testimonial/testimonial-2.jpg" alt="Arif Emre Ünal"/>
+                                            <div class="text-lower">
+                                                <h3>Arif Emre Ünal</h3>
+                                                <p>COO, at
+                                                    <b>Arzum</b>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <div class="inner-box">
+                                    <div class="text">
+                                        <p>IVEN enabled us to create a high performance, secure, cost effective and
+                                            highly detailed system.
+                                        </p>
+                                    </div>
+                                    <div class="lower-info">
+                                        <div class="icon-box">
+                                            <img src="images/testimonial/testimonial-3.jpg" alt="Uğur Darcan"/>
+                                            <div class="text-lower">
+                                                <h3>Uğur Darcan</h3>
+                                                <p>Vice President at
+                                                    <b>Teknoklima</b>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section">
+            <div class="container">
+                <div id="contact-left" class="col-md-6 col-xs-12">
+                    <h1 id="contact-title" style="font-weight: 100">Get In Touch</h1>
+                    <div>Discover What We Can Do Together!</div>
+                    <div id="message-box" class="text-center subscribe-form">
+<!-- 
+                        <form action="https://mailthis.to/info@iven.io"  method="post">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your name">
+                                <input type="email" name="_replyto" placeholder="Your email">
+                                <input type="hidden" name="_subject" value="Contact form submitted">
+                                <input type="hidden" name="_after" value="https://new.iven.io/">
+                                <input type="hidden" name="_honeypot" value="">
+                                <input type="hidden" name="_confirmation" value="Thank you! I call back you.">
+                            </div>
+                            <button id="contact-btn" type="submit">SEND</button>
+                        </form>
+ -->
+                        <form name="subscribe">
+                            <div class="form-group">
+                                <input type="text" name="firstName" value="" placeholder="Your first name"/>
+                                <input type="text" name="lastName" value="" placeholder="Your last name"/>
+                                <input type="email" name="email" value="" placeholder="Your email" required/>
+                                <button id="contact-btn" type="submit">SEND</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="contact-right" class="col-md-6 col-xs-12">
+                    <div class="addresses">
+                        <div class="liner"></div>
+                        <ul class="nav nav-tabs" id="address-tab">
+                            <li class="active">
+                                <a href="#istanbul" data-toggle="tab" title="istanbul office">
+                                    <h5>
+                                        ISTANBUL OFFICE
+                                    </h5>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#usa" data-toggle="tab" title="usa office">
+                                    <h5>
+                                        USA OFFICE
+                                    </h5>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#canada" data-toggle="tab" title="canada office">
+                                    <h5>
+                                        CANADA OFFICE
+                                    </h5>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="istanbul">
+                            <div class="row">
+                                <div class="col-md-12 location">
+                                    <div class="info">
+                                        <i class="fa fa-phone" aria-hidden="true"></i> : <a href="tel:+902129510802">+90 (212) 951 08 02</a>
+                                    </div>
+                                    <div class="info">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i> :
+                                        Esentepe Mah. Kore Şehitleri Cad. No: 39 D: 7, 34394 <br/>Şişli/İSTANBUL
+                                    </div>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12032.310651986683!2d29.015702!3d41.067295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd87f8013728650b7!2sIven!5e0!3m2!1sen!2str!4v1530173638095" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="usa">
+                            <div class="row">
+                                <div class="col-md-12 location">
+                                    <div class="info">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i> :
+                                        3800 Concorde Parkway, Suite 1500 Chantilly, VA 20151 
+                                    </div>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.609384585777!2d-77.45057468464928!3d38.9100469795686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDU0JzM2LjIiTiA3N8KwMjYnNTQuMiJX!5e0!3m2!1sen!2str!4v1530173836843" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="canada">
+                            <div class="row">
+                                <div class="col-md-12 location">
+                                    <div class="info">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i> :
+                                        390 March Road, Suite 110 Ottawa, ON K2K 0G7 
+                                    </div>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.413433328542!2d-75.9138516844467!3d45.340465979099704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDIwJzI1LjciTiA3NcKwNTQnNDIuMCJX!5e0!3m2!1sen!2str!4v1530173862705" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="long-footer">
+            <div class="full-footer">
+                <div class="fifth-footer leftend lg">
+                    <div class="element">
+                        <!-- iven logo -->
+                        <figure class="figure-footer">
+                            <a href=".">
+                                <img src="images/Footer-LOGO.png" alt="Iven"/>
+                            </a>
+                        </figure>
+                        <p class="takecontrol" style="padding:10px;">
+                            Take Control of Your Connected Things
+                        </p>
+                    </div>
+                </div>
+                <div class="fifth-footer text-footer sm">
+                    <div class="footer-main-text"><a href="about">About</a></div>
+                    <div class="footer-link">
+                        <a id="cntct-us" href="about#contact-section">Contact Us</a>
+                        <a id="success-stry" href="about#partner-success-story">Success Stories</a>
+                    </div>
+                </div>
+                <div class="fifth-footer text-footer sm">
+                    <div class="footer-main-text"><a href="platform">Platform</a></div>
+                    <div class="footer-link">
+                        <a href="platform">Features</a>
+                        <a href="developers">API Documentation</a>
+                    </div>
+                </div>
+                <div class="fifth-footer text-footer sm">
+                    <div class="footer-main-text"><a>Resources</a></div>
+                    <div class="footer-link">
+                        <a href="https://blog.iven.io" target="_blank">Blog</a>
+                        <a>Whitepapers</a>
+                    </div>
+                </div>
+                <div class="fifth-footer rightend lg">
+                    <div class="element">
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://www.facebook.com/ivenCorp/" target="_blank">
+                                    <img src="images/social-logo/facebook.svg" alt="Facebook"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/ivenCorp" target="_blank">
+                                    <img src="images/social-logo/twitter.svg" alt="Twitter"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/ivencorp" target="_blank">
+                                    <img src="images/social-logo/linkedin.svg" alt="LinkedIn"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/iven_cloud/" target="_blank">
+                                    <img src="images/social-logo/instagram.svg" alt="Instagram"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="element">
+                        <div class="text stayconnected">Stay Connected!</div>
+                        <div class="subscribe-form">
+                            <form name="subscribe">
+                                <div class="form-group">
+                                    <input type="email" name="email" value="" placeholder="Your email" required/>
+                                    <button type="submit" class="theme-btn">
+                                        <i class="fa fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="column col-md-12 col-sm-12 col-xs-12">
+                        <div class="copyright">
+                            COPYRIGHT ©
+                            <script>document.write(new Date().getFullYear());</script>, 
+                            Iven Infomation and Communication Technologies INC. All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

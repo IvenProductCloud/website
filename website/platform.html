@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+
+        <title>Platform | Iven</title>
+
+        <!-- Meta tags-->
+        <meta name="description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta name="author" content="Iven"/>
+        <meta name="keywords" content="iven, IoT, Internet of Things, M2M, MQTT, connectivity, platform, realtime, IoT applications, IoT solutions, business automation, digital transformation"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Iven"/>
+        <meta name="application-name" content="Iven"/>
+        <meta name="theme-color" content="#449AB4"/>
+        <!-- End Meta tags-->
+
+        <!--
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta http-equiv="Content-Language" content="en">
+        -->
+
+        <!-- Facebook Open Graph data -->
+        <meta property="og:title" content="Iven | IoT Solutions"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://iven.io"/>
+        <meta property="og:image" content="https://iven.io/images/colored-square-iven-logo.png"/>
+        <meta property="og:description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta property="og:site_name" content="Iven"/>
+        <!-- End Facebook Open Graph data -->
+
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:site" content="@ivenCorp"/>
+        <meta name="twitter:title" content="Iven | IoT Solutions"/>
+        <meta name="twitter:description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta name="twitter:image" content="https://iven.io/images/colored-square-iven-logo.png"/>
+        <meta name="twitter:image:alt" content="Iven Square Logo">
+        <!-- End Twitter Card data -->
+
+        <!-- Google+ Schema.org markup -->
+        <meta itemprop="name" content="Iven | IoT Solutions"/>
+        <meta itemprop="description" content="Iven accompanies device manufacturers on their entire digital transformation by providing end-to-end IoT support."/>
+        <meta itemprop="image" content="https://iven.io/images/colored-square-iven-logo.png"/>
+        <!-- End Google+ Schema.org markup -->
+
+        <!-- Favicon & Other Links -->
+        <link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32"/>
+        <link rel="apple-touch-icon" href="images/square-iven-logo.png" type="image/png" sizes="200x200"/>
+        <link rel="canonical" href="https://iven.io/platform">
+        <!-- End Favicon -->
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/platform.css"/>
+        <link rel="stylesheet" href="css/platform-responsive.css"/>
+        <link rel="stylesheet" href="css/circle-tabs.css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <!-- End Stylesheet -->
+
+        <!-- Google Tag Manager -->
+        <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TNFFF56');
+        </script>
+        <!-- End Google Tag Manager -->
+
+        <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n; n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0 ; t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '358905531162570'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=358905531162570&ev=PageView&noscript=1" /></noscript>
+        <!-- DO NOT MODIFY -->
+        <!-- End Facebook Pixel Code -->
+
+        <!-- Mailchimp Code -->
+        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0928deb62d76b7f21eeda8094/0ed8ed240c5df4d16596ce6c2.js");</script>
+        <!-- End Mailchimp Code -->
+    </head>
+    <body>
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNFFF56"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <header id="header-menu">
+            <div class="headr">
+                <div id="hamburger" class="bar-container" onclick="toggler(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div class="headr-logo">
+                    <img onclick="window.location.href='.'" src="images/iven-logo.svg" alt="Iven"/>
+                </div>
+                <div id="headr-navi">
+                    <ul class="nav navbar-nav navbar-right">             
+                        <li><a href="about">ABOUT</a></li>
+                        <li class="dropdown">
+                            <button class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                SOLUTIONS<span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="guidebook">Guidebook</a></li>
+                                <li><a href="platform">Platform</a></li>
+                                <li><a href="smartretail">Smart Retail</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="developers" target="_blank">DEVELOPERS <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <li><a href="https://blog.iven.io" target="_blank">EXPLORE <i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                        <!--
+                        <li>
+                            <a id="signin" class="btn btn-default btn-outline btn-circle"  href="about#contact-section">SIGN IN</a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section id="platform-header">
+            <div id="header-screen">
+                <div id="header-first" >
+                    <div class="container">
+                        <div class="row">
+                            <div id="header-right" class="col-md-7 col-xs-12 col-md-push-5 text-center">
+                                <div id="cross-platform"><img src="images/Asset%204.svg" alt="Devices running Iven Platform" class="devices"/></div>
+                            </div>
+                            <div id="header-left" class="col-md-5 col-xs-12 col-md-pull-7 text-center">
+                                <h1>One Platform<br/> Many Devices<br/> More Control!</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header-second">
+                <div id="header-text">
+                    <div class="container">
+                        <div class="description">
+                            <h2>Would you like to set up a smart system in seconds?</h2>
+                            <div class="text">Iven provides IoT Platform that was specifically designed for connected products across multiple vertical markets.</div>
+                            <!-- <button id="platform-button">Try Now</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="system-image">
+            <div class="container">
+                <div class="row ">
+                    <div class="board">
+                        <div class="board-inner">
+                            <div class="liner"></div>
+                            <ul class="nav nav-tabs" id="myTab">
+                                <li class="active">
+                                    <a href="#secure" data-toggle="tab" title="Secure Connectivity">
+                                    <span class="round-tabs one" id="one" style="border: 2px solid #fd6400;">
+                                    <i class="fa fa-lock"></i>
+                                    </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#device-mng" data-toggle="tab" title="Device Management">
+                                    <span class="round-tabs" id="two" style="border: 2px solid #4fc2ce;">
+                                    <i class="fa fa-hand-spock-o"></i>
+                                    </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#device-data" data-toggle="tab" title="Device Data Monitoring">
+                                    <span class="round-tabs" id="three" style="border: 2px solid #f16c6d;">
+                                    <i class="fa fa-desktop"></i>
+                                    </span> </a>
+                                </li>
+                                <li>
+                                    <a href="#business-rule" data-toggle="tab" title="Business Rules Engine">
+                                    <span class="round-tabs" id="four" style="border: 2px solid #429ab5;">
+                                    <i class="fa fa-briefcase"></i>
+                                    </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#account-mng" data-toggle="tab" title="Account Management">
+                                    <span class="round-tabs" id="five" style="border: 2px solid #7864ab;">
+                                    <i class="fa fa-user"></i>
+                                    </span> </a>
+                                </li>
+                                <li>
+                                    <a href="#app-mng" data-toggle="tab" title="Application Management">
+                                    <span class="round-tabs" id="six" style="border: 2px solid #fcc130;">
+                                    <i class="fa fa-rocket"></i>
+                                    </span> </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="secure">
+                                <h2 class="text-center" style="padding: 10px 0;" >Secure Connectivity</h2>
+                                <div class="cards col-md-4 col-xs-12">
+                                    
+                                    <h4>Cloud Gateway</h4>
+                                    <div class="card-content">
+                                        <p>Cloud Gateway is an entry point for IoT devices to connect Iven Platform. </p>
+                                    </div>
+                                </div>
+                                <div class="cards col-md-4 col-xs-12">
+                                    <h4>Token Based Authentication</h4>
+                                    
+                                    <div class="card-content">
+                                        <p>Token Based Authentication is used for connecting devices securely to the Iven Platform through a secret key identification process.</p>
+                                    </div>                        
+                                </div>
+                                <div class="cards col-md-4 col-xs-12">
+                                    <h4>Device-to-Cloud Communication</h4>
+                                    
+                                    <div class="card-content">
+                                        <p>Allows IoT devices to communicate with the cloud through data channel. This data channel is specified for per IoT device in order to send their data to cloud. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="device-mng">
+                                <h2 class="text-center" style="padding: 10px 0;">Device Management</h2>
+                                <div class="cards col-md-3 col-xs-12">
+                                    
+                                    <h4>Device Provisioning</h4>
+                                    <div class="card-content">
+                                        <p>Device Provisioning is a unit where the digital identity per each device is created and stored in order authenticate and authorize devices through the cloud.</p>
+                                    </div>
+                                </div>
+                                <div class="cards col-md-3 col-xs-12">
+                                    <h4>Device Template</h4>
+                                    
+                                    <div class="card-content">
+                                        <p>Device Templates allows to define sensor information of IoT devices on the cloud. Those definitions allows to identify the data format will be sending from the IoT device.</p>
+                                    </div>                      
+                                </div>
+                                <div class="cards col-md-3 col-xs-12">
+                                    <h4>Cloud-to-Device Communication </h4>
+                                    
+                                    <div class="card-content">
+                                        <p>Allows to control IoT devices from cloud through specified channels. This communication channels includes remote control and firmware updates.</p>
+                                    </div>
+                                </div>
+                                <div class="cards col-md-3 col-xs-12">
+                                    <h4>Bulk Device Operations</h4>
+                                    
+                                    <div class="card-content">
+                                        <p>Bulk Device Operations enables to register a large number of devices and send firmware updates remotely at the same time.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="device-data">
+                                <h2 class="text-center" style="padding: 10px 0;">Device Data Monitoring</h2>
+                                <div class="cards col-md-6 col-xs-12">
+                                    
+                                    <h4>Observe Current State</h4>
+                                    <div class="card-content">
+                                        <p>Allows to monitor IoT devices’ connection status, last connection activity time, last sending sensor data value and the time.</p>
+                                    </div>
+                                </div>
+                                <div class="cards col-md-6 col-xs-12">
+                                    <h4>Historical Data Reports</h4>
+                                    
+                                    <div class="card-content">
+                                        <p>Allows to access the massive volume of data generated by IoT devices and performs filtering operations on historical data based on device name, device identifier and tags defined on the device. </p>
+                                    </div>                     
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="business-rule">
+                                <h2 class="text-center" style="padding: 10px 0;">Business Rules Engine</h2>
+                                <div class="cards col-md-4 col-xs-12">
+                                    
+                                    <h4>Rule Deployment</h4>
+                                    <div class="card-content">
+                                        <p>Rule Deployment allows to run specified conditions on real-time data generated by IoT devices for the business solutions. It is basically a behavioral system of what to do when conditions are met on evaluated data from IoT device and triggers any actions as what to do part.  </p>
+                                    </div>
+                                </div>
+                                <div class="cards col-md-4 col-xs-12">
+                                    <h4>Execution Logs</h4>
+                                    
+                                    <div class="card-content">
+                                        <p>Execution reports are generated as a result of rule running. This unit provides access to these reports.</p>
+                                    </div>                       
+                                </div>
+                                <div class="cards col-md-4 col-xs-12">
+                                    <h4>Rule Actions</h4>
+                                    <div class="card-content">
+                                        <p>Represents the real time actions occurred on data stream. Actions include email, sms and push notifications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="account-mng">
+                                <h2 class="text-center" style="padding: 10px 0;">Account Management</h2>
+                                <div class="cards col-md-6 col-xs-12">
+                                    
+                                    <h4>Working Spaces </h4>
+                                    <div class="card-content">
+                                        <p>Spaces are used for working environment of your solution.</p>
+                                    </div>
+                                </div>
+                                <div class="cards col-md-6 col-xs-12">
+                                    <h4>Member Invitation</h4>
+                                    
+                                    <div class="card-content">
+                                        <p>Allows to invite members to working spaces</p>
+                                    </div>                       
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="app-mng">
+                                <h2 class="text-center" style="padding: 10px 0;">Application Management</h2>
+                                <div class="cards col-md-6 col-xs-12">
+                                    
+                                    <h4>Access Management for Applications</h4>
+                                    <div class="card-content">
+                                        <p>Allows you to create access tokens for end-user applications on Iven Platform.</p>
+                                    </div>
+                                </div>
+                                <div class="cards col-md-6 col-xs-12">
+                                    <h4>Consumable API</h4>
+                                    
+                                    <div class="card-content">
+                                        <p>End-Users can pair their IoT devices by means of consumable APIs provided by the platform. It is also possible to unpair the device, list all devices associated by the user and get the historical state of all associated devices.</p>
+                                    </div>                       
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="platform-software">
+            <h3 style="margin: auto 0; margin-bottom: 25px; color: white;">Together We're Building a Better Connected World</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <img src="images/1.cumle-%20connect.svg" alt="device connection"/>
+                            </div>
+                            <div class="panel-body">
+                                Connect your device easily
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <img src="images/2.cumle-manage.svg" alt="device management"/>
+                            </div>
+                            <div class="panel-body">
+                                Manage your device quickly
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <img src="images/3.%20cumle-%20store.svg" alt="data storage"/>
+                            </div>
+                            <div class="panel-body">
+                                Store your data securely
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="platform-contact">
+            <div class="container">
+                <img id="icons" src="images/platform_2.svg" alt="contact-us"/>
+                <h3>Discover What We Can Do Together!</h3>
+                <button class="btn btn-default" id="platform-button" onclick="window.location.href='../about#contact-section'">Contact us</button>
+            </div>
+        </section>
+
+        <footer class="long-footer">
+            <div class="full-footer">
+                <div class="fifth-footer leftend lg">
+                    <div class="element">
+                        <!-- iven logo -->
+                        <figure class="figure-footer">
+                            <a href=".">
+                                <img src="images/Footer-LOGO.png" alt="Iven"/>
+                            </a>
+                        </figure>
+                        <p class="takecontrol" style="padding:10px;">
+                            Take Control of Your Connected Things
+                        </p>
+                    </div>
+                </div>
+                <div class="fifth-footer text-footer sm">
+                    <div class="footer-main-text"><a href="about">About</a></div>
+                    <div class="footer-link">
+                        <a id="cntct-us" href="about#contact-section">Contact Us</a>
+                        <a id="success-stry" href="about#partner-success-story">Success Stories</a>
+                    </div>
+                </div>
+                <div class="fifth-footer text-footer sm">
+                    <div class="footer-main-text"><a href="platform">Platform</a></div>
+                    <div class="footer-link">
+                        <a href="platform">Features</a>
+                        <a href="developers">API Documentation</a>
+                    </div>
+                </div>
+                <div class="fifth-footer text-footer sm">
+                    <div class="footer-main-text"><a>Resources</a></div>
+                    <div class="footer-link">
+                        <a href="https://blog.iven.io" target="_blank">Blog</a>
+                        <a>Whitepapers</a>
+                    </div>
+                </div>
+                <div class="fifth-footer rightend lg">
+                    <div class="element">
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://www.facebook.com/ivenCorp/" target="_blank">
+                                    <img src="images/social-logo/facebook.svg" alt="Facebook"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/ivenCorp" target="_blank">
+                                    <img src="images/social-logo/twitter.svg" alt="Twitter"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/ivencorp" target="_blank">
+                                    <img src="images/social-logo/linkedin.svg" alt="LinkedIn"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/iven_cloud/" target="_blank">
+                                    <img src="images/social-logo/instagram.svg" alt="Instagram"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="element">
+                        <div class="text stayconnected">Stay Connected!</div>
+                        <div class="subscribe-form">
+                            <form name="subscribe">
+                                <div class="form-group">
+                                    <input type="email" name="email" value="" placeholder="Your email" required/>
+                                    <button type="submit" class="theme-btn">
+                                        <i class="fa fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="column col-md-12 col-sm-12 col-xs-12">
+                        <div class="copyright">
+                            COPYRIGHT ©
+                            <script>document.write(new Date().getFullYear());</script>, 
+                            Iven Infomation and Communication Technologies INC. All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/platform-navbar.js"></script>
+    </body>
+</html>
